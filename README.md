@@ -38,3 +38,35 @@ npm run dev
 ```sh
 npm run build
 ```
+
+<hr>
+
+## Instalación de Tailwind
+
+Ejecutar los siguientes comandos
+```sh
+npm install -D tailwindcss postcss autoprefixer
+```
+```sh
+npx tailwindcss init -p
+```
+
+Modificar el archivo *tailwind.config.js*
+```sh
+content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+```
+
+Crear un nuevo archivo en *src* llamado **style.css** con este contenido
+```sh
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+Modificar el archivo *main.ts*
+```sh
+import './style.css'
+```
