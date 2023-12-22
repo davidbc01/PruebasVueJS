@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,a}from"./index-6778c176.js";const c={},o={class:"about"},n=a("h1",{class:"text-2xl italic text-green-500"},"Esta es la página de pruebas",-1),r=[n];function _(i,d){return s(),t("div",o,r)}const f=e(c,[["render",_]]);export{f as default};
