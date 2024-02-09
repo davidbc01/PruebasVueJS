@@ -70,3 +70,9 @@ Modificar el archivo *main.ts*
 ```sh
 import './style.css'
 ```
+
+<hr>
+
+## Comando para la creación de proyectos
+
+![Opciones para crear proyectos](./public/crearProyecto.png)
